@@ -7,6 +7,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.codepath.apps.restclienttemplate.TimeFormatter.getTimeDifference;
+
 public class Tweet {
     public String body;
     public String createdAt;
@@ -26,5 +28,9 @@ public class Tweet {
             tweets.add(fromJson(jsonArray.getJSONObject(i)));
         }
         return tweets;
+    }
+
+    public String getRelativeTimestamp(){
+        return getTimeDifference(createdAt);
     }
 }

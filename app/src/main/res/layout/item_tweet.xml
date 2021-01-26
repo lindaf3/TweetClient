@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@android:color/background_dark">
+
 
     <ImageView
         android:id="@+id/ivProfile"
@@ -19,11 +21,35 @@
         android:id="@+id/tvScreenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="55dp"
         android:layout_marginTop="0dp"
-        android:layout_toEndOf="@id/ivProfile"
-        tools:text="Tim_Tones" />
+        android:textColor="@android:color/white"
+        tools:text="Tim Tones" />
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/tvScreenName"
+        android:textColor="@android:color/holo_blue_dark"
+        tools:text="@partyAnimalRiver443" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="27dp"
+        android:textColor="@android:color/white"
+        tools:text="1h" />
 
     <TextView
         android:id="@+id/tvBody"
@@ -33,5 +59,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@id/ivProfile"
+        android:textColor="@android:color/white"
         tools:text="I won't sell your data" />
+
 </RelativeLayout>

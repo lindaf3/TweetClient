@@ -34,13 +34,13 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
--Debugging incorrect parsing of the JsonArray /
--Formatting the timestamp and username /
+- Debugging incorrect parsing of the JsonArray \
+- Formatting the timestamp and username \
 
 
 ## Open-source libraries used
@@ -49,7 +49,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 
 ## Open-Source StarterCode Used
--[RestClientTemplate](https://github.com/codepath/android-rest-client-template) - skeleton Android project that makes writing Android apps sourced from OAuth JSON REST APIs as easy as possible 
+- [RestClientTemplate](https://github.com/codepath/android-rest-client-template) - skeleton Android project that makes writing Android apps sourced from OAuth JSON REST APIs as easy as possible 
 - nesquena's EndlessRecyclerViewScrollListener.java and [TimeFormatter.java](https://github.com/nesquena/TimeFormatter/blob/master/TimeFormatter.java)
 
 ## License

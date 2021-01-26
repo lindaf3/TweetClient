@@ -9,11 +9,11 @@ Time spent: **X** hours spent in total
 
 The following **required** functionality is completed:
 
-- [X ] User can **sign in to Twitter** using OAuth login
-- [X ]	User can **view tweets from their home timeline**
-  - [X ] User is displayed the username, name, and body for each tweet
+- [X] User can **sign in to Twitter** using OAuth login
+- [X]	User can **view tweets from their home timeline**
+  - [X] User is displayed the username, name, and body for each tweet
   - [ ] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
-- [ X] User can refresh tweets timeline by pulling down to refresh
+- [X] User can refresh tweets timeline by pulling down to refresh
 
 The following **optional** features are implemented:
 
@@ -47,13 +47,13 @@ Describe any challenges encountered while building the app.
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 
-##Open-Source StarterCode Used
--[RestClientTemplate](https://github.com/codepath/android-rest-client-template) - skeleton Android project that makes writing Android apps sourced from OAuth JSON REST APIs as easy as possible
-- nesquena's EndlessRecyclerViewScrollListener.java
+## Open-Source StarterCode Used
+-[RestClientTemplate](https://github.com/codepath/android-rest-client-template) - skeleton Android project that makes writing Android apps sourced from OAuth JSON REST APIs as easy as possible 
+- nesquena's EndlessRecyclerViewScrollListener.java and [TimeFormatter.java](https://github.com/nesquena/TimeFormatter/blob/master/TimeFormatter.java)
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [Linda Fan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

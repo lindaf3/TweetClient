@@ -39,8 +39,8 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-- Debugging incorrect parsing of the JsonArray \
-- Formatting the timestamp and username \
+- Debugging incorrect parsing of the JsonArray
+- Formatting the timestamp and username
 
 
 ## Open-source libraries used

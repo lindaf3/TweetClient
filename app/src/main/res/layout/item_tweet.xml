@@ -38,7 +38,7 @@
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/tvScreenName"
         android:textColor="@android:color/holo_blue_dark"
-        tools:text="@partyAnimalRiver443" />
+        tools:text="\@partyAnimalRiver443" />
 
     <TextView
         android:id="@+id/tvTime"
@@ -59,7 +59,10 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@id/ivProfile"
+        android:autoLink="all"
+        android:linksClickable="true"
         android:textColor="@android:color/white"
+        android:textColorLink="@android:color/holo_blue_bright"
         tools:text="I won't sell your data" />
 
 </RelativeLayout>
